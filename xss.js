@@ -1,5 +1,5 @@
-var exec = function() {
+window.exec = function() {
     alert("XSS")
 }
  
-exec();
+window.exec();
